@@ -1,0 +1,47 @@
+# Vault notes and document attachments are the backup scope.
+# Hidden agent/session/configuration folders are local unless explicitly allowed.
+.*
+!.gitignore
+!.gitattributes
+!.obsidian/
+
+# Keep portable Obsidian appearance/navigation; never plugin credential stores.
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/bookmarks.json
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/graph.json
+!.obsidian/types.json
+!.obsidian/snippets/
+!.obsidian/themes/
+
+# Credentials and private key material, wherever stored.
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/credentials.json
+**/service-account*.json
+**/*serviceAccount*.json
+
+# Recovery, dependencies, generated output and machine-specific files.
+**/node_modules/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/cdk.out/
+**/Thumbs.db
+**/desktop.ini
+**/*.tmp
+**/*.log
+**/*.aux
+**/*.fls
+**/*.fdb_latexmk
+**/*.synctex.gz
+
+# Local Copilot chat/session history is not part of this backup.
+/copilot/copilot-conversations/

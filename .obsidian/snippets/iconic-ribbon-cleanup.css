@@ -1,0 +1,190 @@
+/* Iconic ribbon cleanup: compact, color-coded groups. No actions hidden. */
+.workspace-ribbon.mod-left .side-dock-actions {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  gap: 2px;
+  padding-block: 6px;
+}
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action {
+  order: 100;
+  flex: 0 0 28px;
+  height: 28px;
+  min-height: 28px;
+  width: 32px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action .svg-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Navigation: Notebook Navigator */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Notebook Navigator"] {
+  order: 1;
+}
+
+/* Navigation: Open quick switcher */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open quick switcher"] {
+  order: 2;
+}
+
+/* Navigation: Open command palette */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open command palette"] {
+  order: 3;
+}
+
+/* Planning: Open today's daily note */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open today's daily note"] {
+  order: 4;
+  margin-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Planning: Open calendar view */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open calendar view"] {
+  order: 5;
+}
+
+/* Planning: Open tasks view */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open tasks view"] {
+  order: 6;
+}
+
+/* Planning: Open agenda view */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open agenda view"] {
+  order: 7;
+}
+
+/* Planning: Open Kanban board */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open Kanban board"] {
+  order: 8;
+}
+
+/* Planning: Create new task */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Create new task"] {
+  order: 9;
+}
+
+/* Planning: Open Pomodoro timer */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open Pomodoro timer"] {
+  order: 10;
+}
+
+/* Planning: Open Pomodoro statistics */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open Pomodoro statistics"] {
+  order: 11;
+}
+
+/* Planning: Open Timeline */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open Timeline"] {
+  order: 12;
+}
+
+/* Planning: Open Multi-Day View */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open Multi-Day View"] {
+  order: 13;
+}
+
+/* Planning: Open mini calendar view */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open mini calendar view"] {
+  order: 14;
+}
+
+/* Practice and reading: Open LeetCode Workspace */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open LeetCode Workspace"] {
+  order: 15;
+  margin-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Practice and reading: new LeetCode plugin, beside LeetCode Helper */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open LeetCode browser"] {
+  order: 15;
+}
+
+/* Practice and reading: RSS dashboard */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="RSS dashboard"] {
+  order: 16;
+}
+
+/* AI: Open Copilot Agent Chat */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open Copilot Agent Chat"] {
+  order: 17;
+  margin-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* AI: Open agent client */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open agent client"] {
+  order: 18;
+}
+
+/* AI: Cognitive glow */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Cognitive glow"] {
+  order: 19;
+}
+
+/* Create and code: Open graph view */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open graph view"] {
+  order: 20;
+  margin-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Create and code: Create new base */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Create new base"] {
+  order: 21;
+}
+
+/* Create and code: Create new canvas */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Create new canvas"] {
+  order: 22;
+}
+
+/* Create and code: New drawing */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="New drawing"] {
+  order: 23;
+}
+
+/* Create and code: Insert template */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Insert template"] {
+  order: 24;
+}
+
+/* Create and code: Open code space dashboard */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open code space dashboard"] {
+  order: 25;
+}
+
+/* Utilities: Run a full AI Mirror sync now */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Run a full AI Mirror sync now"] {
+  order: 26;
+  margin-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Utilities: PDF++: Toggle auto-copy */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="PDF++: Toggle auto-copy"] {
+  order: 27;
+}
+
+/* Utilities: PDF++: Toggle auto-focus */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="PDF++: Toggle auto-focus"] {
+  order: 28;
+}
+
+/* Utilities: PDF++: Toggle auto-paste */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="PDF++: Toggle auto-paste"] {
+  order: 29;
+}
+
+/* Utilities: Iconic's own customization rulebook */
+.workspace-ribbon.mod-left .side-dock-actions > .side-dock-ribbon-action[aria-label="Open rulebook"] {
+  order: 30;
+}

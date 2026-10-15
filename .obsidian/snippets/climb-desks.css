@@ -1,0 +1,35 @@
+/* Scoped to Climb pages only. No sidebar, ribbon or global-theme overrides. */
+.climb-page {
+  --file-line-width: 960px;
+}
+.climb-page .callout {
+  border-radius: 12px;
+  padding: 14px 18px;
+  box-shadow: none;
+}
+.climb-page .callout[data-callout="abstract"] {
+  --callout-color: 96, 191, 197;
+  border: 1px solid rgba(96, 191, 197, .25);
+}
+.climb-page .callout[data-callout="tip"] {
+  --callout-color: 104, 185, 140;
+}
+.climb-page :is(h2, .HyperMD-header-2) {
+  margin-top: 1.7em;
+}
+.climb-page .markdown-rendered table,
+.markdown-rendered.climb-page table {
+  font-size: .94em;
+  width: 100%;
+}
+.climb-page :is(th, td) {
+  padding: .65em .8em;
+  vertical-align: top;
+}
+.climb-page .markdown-embed {
+  border-inline-start: 2px solid var(--background-modifier-border);
+  padding-inline-start: 18px;
+}
+.climb-page .task-list-item {
+  margin-block: .8em;
+}

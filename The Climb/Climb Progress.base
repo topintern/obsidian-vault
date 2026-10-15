@@ -1,0 +1,85 @@
+{
+  "filters": {
+    "and": [
+      "file.inFolder(\"The Climb/Days\")",
+      "file.ext == \"md\"",
+      "kind == \"climb-day\""
+    ]
+  },
+  "properties": {
+    "file.name": {
+      "displayName": "Day"
+    },
+    "date": {
+      "displayName": "Date"
+    },
+    "spirit_minutes": {
+      "displayName": "Spirit · min"
+    },
+    "japa_count": {
+      "displayName": "Japa · daily increment"
+    },
+    "companies_checked": {
+      "displayName": "Company checks"
+    },
+    "applications_submitted": {
+      "displayName": "Applications · verified"
+    },
+    "outreach_sent": {
+      "displayName": "Outreach · sent"
+    },
+    "prep_minutes": {
+      "displayName": "Prep · min"
+    },
+    "dsa_attempted": {
+      "displayName": "DSA · attempts"
+    },
+    "dsa_independent": {
+      "displayName": "DSA · independent"
+    },
+    "creative_minutes": {
+      "displayName": "Creative · min"
+    },
+    "movement_minutes": {
+      "displayName": "Movement · min"
+    }
+  },
+  "views": [
+    {
+      "type": "table",
+      "name": "Daily Evidence",
+      "order": [
+        "file.name",
+        "date",
+        "spirit_minutes",
+        "japa_count",
+        "companies_checked",
+        "applications_submitted",
+        "outreach_sent",
+        "prep_minutes",
+        "dsa_attempted",
+        "dsa_independent",
+        "creative_minutes",
+        "movement_minutes"
+      ],
+      "sort": [
+        {
+          "property": "date",
+          "direction": "DESC"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Career",
+      "order": [
+        "file.name",
+        "applications_submitted",
+        "outreach_sent",
+        "prep_minutes",
+        "dsa_attempted",
+        "dsa_independent"
+      ]
+    }
+  ]
+}

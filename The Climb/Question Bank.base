@@ -1,0 +1,98 @@
+{
+  "filters": {
+    "and": [
+      "file.inFolder(\"The Climb/Practice\")",
+      "file.ext == \"md\"",
+      "kind == \"climb-question\""
+    ]
+  },
+  "properties": {
+    "file.name": {
+      "displayName": "Question"
+    },
+    "prep_track": {
+      "displayName": "Track"
+    },
+    "prep_topic": {
+      "displayName": "Topic"
+    },
+    "prep_status": {
+      "displayName": "State"
+    },
+    "prep_last_practiced": {
+      "displayName": "Last practiced"
+    },
+    "prep_review_due": {
+      "displayName": "Review due"
+    },
+    "prep_independent": {
+      "displayName": "Independent"
+    },
+    "prep_minutes": {
+      "displayName": "Minutes"
+    }
+  },
+  "views": [
+    {
+      "type": "table",
+      "name": "All Questions",
+      "order": [
+        "file.name",
+        "prep_track",
+        "prep_topic",
+        "prep_status",
+        "prep_last_practiced",
+        "prep_review_due",
+        "prep_independent"
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Coding",
+      "filters": {
+        "and": [
+          "prep_track == \"DSA\""
+        ]
+      },
+      "order": [
+        "file.name",
+        "prep_topic",
+        "prep_status",
+        "prep_last_practiced",
+        "prep_review_due"
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Reviews",
+      "filters": {
+        "or": [
+          "prep_status == \"review\"",
+          "prep_review_due && date(prep_review_due) <= today()"
+        ]
+      },
+      "order": [
+        "file.name",
+        "prep_track",
+        "prep_status",
+        "prep_review_due"
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Stories and Behavioral",
+      "filters": {
+        "or": [
+          "prep_track == \"Stories\"",
+          "prep_track == \"Behavioral\""
+        ]
+      },
+      "order": [
+        "file.name",
+        "prep_topic",
+        "prep_status",
+        "prep_last_practiced"
+      ]
+    }
+  ]
+}

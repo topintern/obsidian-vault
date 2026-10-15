@@ -1,0 +1,38 @@
+filters:
+  and:
+    - 'file.inFolder("The Climb/Career Library")'
+    - 'file.ext == "md"'
+    - 'file.hasProperty("source_files")'
+properties:
+  file.name:
+    displayName: Material
+  source_status:
+    displayName: Source context
+views:
+  - type: table
+    name: Documents
+    filters:
+      and:
+        - 'kind != "coding-problem"'
+    order:
+      - file.name
+      - collection
+      - topic
+      - kind
+      - source_status
+  - type: table
+    name: Company Prep
+    filters:
+      and:
+        - 'kind == "company-prep"'
+    order:
+      - file.name
+      - collection
+      - source_status
+  - type: table
+    name: All Source Notes
+    order:
+      - file.name
+      - kind
+      - collection
+      - topic

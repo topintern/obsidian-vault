@@ -1,0 +1,150 @@
+filters:
+  and:
+    - file.inFolder("The Climb/Resume Bank/Versions")
+    - file.ext == "md"
+    - kind == "resume-bank-entry"
+formulas:
+  version: link(file.path, resume_title)
+properties:
+  formula.version:
+    displayName: Version
+  resume_family:
+    displayName: Family
+  resume_role:
+    displayName: Role context
+  resume_company:
+    displayName: Company context
+  resume_experience_labels:
+    displayName: Source experience labels
+  resume_source_modified:
+    displayName: Source modified
+  resume_review:
+    displayName: Review
+  resume_favorite:
+    displayName: Favorite
+  resume_pdf:
+    displayName: Original PDF
+  resume_word:
+    displayName: Original Word
+  resume_kind:
+    displayName: Document type
+  resume_owner:
+    displayName: Name context
+views:
+  - type: table
+    name: Recent
+    filters:
+      and:
+        - resume_kind == "Resume"
+        - resume_owner == "Neel-labelled"
+    order:
+      - formula.version
+      - resume_role
+      - resume_company
+      - resume_experience_labels
+      - resume_source_modified
+      - resume_review
+      - resume_favorite
+      - resume_pdf
+      - resume_word
+    sort:
+      - property: resume_source_modified
+        direction: DESC
+    limit: 15
+  - type: table
+    name: My Resumes
+    filters:
+      and:
+        - resume_kind == "Resume"
+        - resume_owner == "Neel-labelled"
+    groupBy:
+      property: resume_family
+      direction: ASC
+    order:
+      - formula.version
+      - resume_role
+      - resume_company
+      - resume_experience_labels
+      - resume_source_modified
+      - resume_review
+      - resume_favorite
+      - resume_pdf
+      - resume_word
+  - type: table
+    name: Company Contexts
+    filters:
+      and:
+        - resume_kind == "Resume"
+        - resume_owner == "Neel-labelled"
+        - resume_company != ""
+    groupBy:
+      property: resume_company
+      direction: ASC
+    order:
+      - formula.version
+      - resume_role
+      - resume_company
+      - resume_experience_labels
+      - resume_source_modified
+      - resume_review
+      - resume_favorite
+      - resume_pdf
+      - resume_word
+  - type: table
+    name: Favorites
+    filters:
+      and:
+        - resume_kind == "Resume"
+        - resume_owner == "Neel-labelled"
+        - resume_favorite == true
+    order:
+      - formula.version
+      - resume_role
+      - resume_company
+      - resume_experience_labels
+      - resume_source_modified
+      - resume_review
+      - resume_favorite
+      - resume_pdf
+      - resume_word
+  - type: table
+    name: Supporting Documents
+    filters:
+      and:
+        - resume_kind != "Resume"
+    groupBy:
+      property: resume_kind
+      direction: ASC
+    order:
+      - formula.version
+      - resume_owner
+      - resume_family
+      - resume_pdf
+      - resume_word
+  - type: table
+    name: Different Names and Unconfirmed
+    filters:
+      and:
+        - resume_owner != "Neel-labelled"
+    groupBy:
+      property: resume_owner
+      direction: ASC
+    order:
+      - formula.version
+      - resume_kind
+      - resume_family
+      - resume_experience_labels
+      - resume_pdf
+      - resume_word
+  - type: table
+    name: All Entries
+    order:
+      - formula.version
+      - resume_kind
+      - resume_owner
+      - resume_family
+      - resume_source_modified
+      - resume_pdf
+      - resume_word
+  - type: table
+    name: View

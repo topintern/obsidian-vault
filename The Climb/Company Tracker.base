@@ -1,0 +1,106 @@
+filters:
+  and:
+    - file.inFolder("The Climb/Companies")
+    - file.ext == "md"
+formulas:
+  days_since_checked: if(last_checked, (today() - date(last_checked)).days, "")
+properties:
+  formula.days_since_checked:
+    displayName: Days Since Checked
+views:
+  - type: table
+    name: All Companies
+    order:
+      - company
+      - tier
+      - top_25_rank
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status
+  - type: table
+    name: Core
+    filters:
+      and:
+        - tier == "CORE"
+    order:
+      - company
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status
+  - type: table
+    name: Reach
+    filters:
+      and:
+        - tier == "REACH"
+    order:
+      - company
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status
+  - type: table
+    name: Volume
+    filters:
+      and:
+        - tier == "VOLUME"
+    order:
+      - company
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status
+  - type: table
+    name: Opportunistic A
+    filters:
+      and:
+        - tier == "OPPORTUNISTIC A"
+    order:
+      - company
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status
+  - type: table
+    name: Opportunistic B
+    filters:
+      and:
+        - tier == "OPPORTUNISTIC B"
+    order:
+      - company
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status
+  - type: table
+    name: Restricted Verify
+    filters:
+      and:
+        - tier == "RESTRICTED/VERIFY"
+    order:
+      - company
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status
+  - type: table
+    name: Top 25
+    filters:
+      and:
+        - top_25_rank != null
+    order:
+      - top_25_rank
+      - company
+      - career_page
+      - checked_today
+      - last_checked
+      - formula.days_since_checked
+      - application_status

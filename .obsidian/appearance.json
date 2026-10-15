@@ -1,0 +1,10 @@
+{
+  "theme": "system",
+  "cssTheme": "",
+  "nativeMenus": false,
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "iconic-ribbon-cleanup",
+    "climb-desks"
+  ]
+}

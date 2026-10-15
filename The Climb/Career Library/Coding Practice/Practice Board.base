@@ -1,0 +1,62 @@
+filters:
+  and:
+    - file.inFolder("The Climb/Career Library/Coding Practice")
+    - file.ext == "md"
+    - kind == "coding-problem"
+properties:
+  file.name:
+    displayName: Problem
+  practice_status:
+    displayName: Practice status
+  last_practiced:
+    displayName: Last practised
+  source_solution_available:
+    displayName: Source solution
+  statement_available:
+    displayName: Statement in Markdown
+views:
+  - type: table
+    name: Coding Ninjas
+    filters:
+      and:
+        - collection == "Coding Ninjas"
+    groupBy:
+      property: topic
+      direction: ASC
+    order:
+      - file.name
+      - topic
+      - practice_status
+      - last_practiced
+      - source_solution_available
+  - type: table
+    name: Course Practice
+    filters:
+      and:
+        - collection == "Course Practice"
+    order:
+      - file.name
+      - topic
+      - practice_status
+      - last_practiced
+      - statement_available
+  - type: table
+    name: Review
+    filters:
+      and:
+        - practice_status == "review"
+    order:
+      - file.name
+      - topic
+      - collection
+      - last_practiced
+  - type: table
+    name: Not Started
+    filters:
+      and:
+        - practice_status == "not-started"
+    order:
+      - file.name
+      - topic
+      - collection
+      - source_solution_available

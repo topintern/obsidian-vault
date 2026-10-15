@@ -1,0 +1,427 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1791934983349,
+      "title": "The Climb",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1792029901001,
+          "path": "The Climb/Today.md",
+          "title": "Today — next actions"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983350,
+          "path": "The Climb/THE WALL.md",
+          "title": "The Wall — six-month picture"
+        },
+        {
+          "type": "file",
+          "ctime": 1792029901002,
+          "path": "The Climb/Routine.md",
+          "title": "Routine — daily rhythm"
+        },
+        {
+          "type": "file",
+          "ctime": 1792029901003,
+          "path": "The Climb/Current Sprint.md",
+          "title": "This week — Point A"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983351,
+          "path": "The Climb/HUNT.md",
+          "title": "Hunt"
+        },
+        {
+          "type": "file",
+          "ctime": 1792007337108,
+          "path": "The Climb/Resume Bank/Resume Bank.md",
+          "title": "Resume Bank"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983352,
+          "path": "The Climb/PREP.md",
+          "title": "Interview prep"
+        },
+        {
+          "type": "file",
+          "ctime": 1792029901004,
+          "path": "The Climb/Interview Question Bank.md",
+          "title": "Interview question bank"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983353,
+          "path": "The Climb/Company Tracker.base",
+          "title": "Company tracker"
+        },
+        {
+          "type": "file",
+          "ctime": 1791935656948,
+          "path": "The Climb/Career Library/Career Library.md",
+          "title": "Career Library"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983354,
+          "path": "The Climb/BUILD.md",
+          "title": "Build"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983355,
+          "path": "The Climb/OWN BUILD.md",
+          "title": "Own build"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983356,
+          "path": "The Climb/STORIES.md",
+          "title": "Stories"
+        },
+        {
+          "type": "group",
+          "ctime": 1791934983340,
+          "title": "Life & Practice",
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1791934983341,
+              "path": "The Climb/BODY.md",
+              "title": "Body"
+            },
+            {
+              "type": "file",
+              "ctime": 1791934983342,
+              "path": "The Climb/ART.md",
+              "title": "Art"
+            },
+            {
+              "type": "file",
+              "ctime": 1791934983343,
+              "path": "The Climb/LIFE.md",
+              "title": "Life"
+            },
+            {
+              "type": "file",
+              "ctime": 1791934983344,
+              "path": "The Climb/SPIRIT.md",
+              "title": "Spirit"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983357,
+          "path": "The Climb/WALL.md",
+          "title": "Weekly review"
+        },
+        {
+          "type": "file",
+          "ctime": 1792029901005,
+          "path": "The Climb/Climb Progress.base",
+          "title": "Progress — daily evidence"
+        },
+        {
+          "type": "file",
+          "ctime": 1791934983358,
+          "path": "The Climb/PARKING LOT.md",
+          "title": "Parking lot"
+        },
+        {
+          "type": "group",
+          "ctime": 1791934983345,
+          "title": "Browse folders",
+          "items": [
+            {
+              "type": "folder",
+              "ctime": 1791934983346,
+              "path": "The Climb",
+              "title": "All Climb notes"
+            },
+            {
+              "type": "folder",
+              "ctime": 1791934983347,
+              "path": "The Climb/Companies",
+              "title": "Companies"
+            },
+            {
+              "type": "folder",
+              "ctime": 1791934983348,
+              "path": "The Climb/Career Library",
+              "title": "Career Library"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1791931638449,
+      "title": "Planning",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1791932882127,
+          "title": "Today — next actions",
+          "path": "The Climb/Today.md"
+        },
+        {
+          "type": "url",
+          "ctime": 1791931638450,
+          "title": "Calendar",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Aopen-advanced-calendar-view"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882128,
+          "title": "Mini calendar",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Aopen-calendar-view"
+        },
+        {
+          "type": "url",
+          "ctime": 1791931638451,
+          "title": "Tasks",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Aopen-tasks-view"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882129,
+          "title": "New task",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Acreate-new-task"
+        },
+        {
+          "type": "url",
+          "ctime": 1791931638452,
+          "title": "Agenda",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Aopen-agenda-view"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882130,
+          "title": "Kanban board",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Aopen-kanban-view"
+        },
+        {
+          "type": "url",
+          "ctime": 1791931638453,
+          "title": "Pomodoro",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Aopen-pomodoro-view"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882131,
+          "title": "Pomodoro statistics",
+          "url": "obsidian://note-toolbar?command=tasknotes%3Aopen-pomodoro-stats"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882132,
+          "title": "Timeline",
+          "url": "obsidian://note-toolbar?command=obsidian-day-planner%3Ashow-day-planner-timeline"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882133,
+          "title": "Multi-day planner",
+          "url": "obsidian://note-toolbar?command=obsidian-day-planner%3Ashow-multi-day-view"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1791932882134,
+      "title": "Practice & Reading",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1791941048360,
+          "path": "The Climb/Career Library/Coding Practice/Coding Practice.md",
+          "title": "Coding Practice"
+        },
+        {
+          "type": "file",
+          "ctime": 1791941048361,
+          "path": "The Climb/Career Library/Coding Practice/Practice Board.base",
+          "title": "Practice Board"
+        },
+        {
+          "type": "url",
+          "ctime": 1791933181352,
+          "title": "LeetCode problem browser",
+          "url": "obsidian://note-toolbar?command=leetcode%3Aopen-problem-browser"
+        },
+        {
+          "type": "url",
+          "ctime": 1791933181353,
+          "title": "LeetCode quick search",
+          "url": "obsidian://note-toolbar?command=leetcode%3Aquick-search"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882135,
+          "title": "LeetCode Helper workspace",
+          "url": "obsidian://note-toolbar?command=leetcode-helper%3Aopen-leetcode-workspace"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882136,
+          "title": "RSS dashboard",
+          "url": "obsidian://note-toolbar?command=rss-dashboard%3Aopen-dashboard"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1791932882137,
+      "title": "AI Assistants",
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1791932882138,
+          "title": "Copilot chat",
+          "url": "obsidian://note-toolbar?command=copilot%3Aagent-chat-open-window"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882139,
+          "title": "Agent Client",
+          "url": "obsidian://note-toolbar?command=agent-client%3Aopen-chat-view"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882140,
+          "title": "Cognitive Glow",
+          "url": "obsidian://note-toolbar?command=cognitive-glow%3Aopen-glow-sidebar"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1791932882141,
+      "title": "Create & Code",
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1791932882142,
+          "title": "New base",
+          "url": "obsidian://note-toolbar?command=bases%3Anew-file"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882143,
+          "title": "New canvas",
+          "url": "obsidian://note-toolbar?command=canvas%3Anew-file"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882144,
+          "title": "New drawing",
+          "url": "obsidian://note-toolbar?command=obsidian-excalidraw-plugin%3Aexcalidraw-autocreate-newtab"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882145,
+          "title": "Insert template",
+          "url": "obsidian://note-toolbar?command=insert-template"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882146,
+          "title": "Code Space",
+          "url": "obsidian://note-toolbar?command=code-space%3Aopen-dashboard"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882147,
+          "title": "Graph view",
+          "url": "obsidian://note-toolbar?command=graph%3Aopen"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1791932882148,
+      "title": "Navigation",
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1792005337108,
+          "title": "Web Browser",
+          "url": "obsidian://note-toolbar?command=web-browser%3Aopen-new-browser"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882149,
+          "title": "Browse notes",
+          "url": "obsidian://note-toolbar?command=file-explorer%3Aopen"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882150,
+          "title": "Quick switcher",
+          "url": "obsidian://note-toolbar?command=switcher%3Aopen"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882151,
+          "title": "Command palette",
+          "url": "obsidian://note-toolbar?command=command-palette%3Aopen"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1791932882152,
+      "title": "Utilities",
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1791932882153,
+          "title": "PDF: toggle auto-copy",
+          "url": "obsidian://note-toolbar?command=pdf-plus%3Atoggle-auto-copy"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882154,
+          "title": "PDF: toggle auto-focus",
+          "url": "obsidian://note-toolbar?command=pdf-plus%3Atoggle-auto-focus"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882155,
+          "title": "PDF: toggle auto-paste",
+          "url": "obsidian://note-toolbar?command=pdf-plus%3Atoggle-auto-paste"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882156,
+          "title": "AI Mirror: sync now",
+          "url": "obsidian://note-toolbar?command=ai-bridge%3Async-ai-mirror-now"
+        },
+        {
+          "type": "url",
+          "ctime": 1791932882157,
+          "title": "Iconic rulebook",
+          "url": "obsidian://note-toolbar?command=iconic%3Aopen-rulebook"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1792004515959,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1792004725647,
+          "path": "To do.md"
+        }
+      ],
+      "title": "Obsidian to do"
+    }
+  ]
+}
